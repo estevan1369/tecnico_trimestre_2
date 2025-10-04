@@ -1,4 +1,4 @@
-import Tkinter as tk
+import tkinter as tk
 def sumar():
     try:
         n1=float(entrada1.get())

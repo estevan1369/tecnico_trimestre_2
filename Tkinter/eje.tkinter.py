@@ -8,6 +8,6 @@ def textoDeLacaja():
     print(text20)
 
 
-boton1 =tkinter.Button(ventana, text="click",command= textoDelaCaja)
+boton1 =tkinter.Button(ventana, text="click",command= textoDeLacaja)
 boton1.pack()
 ventana.mainloop()
