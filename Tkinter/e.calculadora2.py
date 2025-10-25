@@ -6,7 +6,7 @@ def sumar():
         result.set("error")
     except valueError:
         resultado.set("Error")
-ventana=tk.tk()
+ventana=tk.Tk()
 ventana.title("calculadora basica")
 ventana.geometry("250x180")
 resultado=tk.stringvar()

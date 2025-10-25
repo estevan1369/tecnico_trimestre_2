@@ -1,5 +1,5 @@
-import tkinter
-ventana=tkinter.TK()
+import tkinter 
+ventana=tkinter.Tk()
 ventana.geometry("400x300")
 cajaTexto= tkinter.Entry(ventana)
 cajaTexto.pack()
